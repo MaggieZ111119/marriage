@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: Cleans the raw plane data by Open Data Toronto
-# Author: Maggie Zhang
+# Author: MaggieZhang
 # Date: 19 September 2024
 # Contact: maggiey.zhang@mail.utoronto.ca
 # License: MIT
