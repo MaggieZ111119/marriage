@@ -2,7 +2,7 @@
 # Purpose: Downloads and saves the data from Open Data Toronto
 # Author: Maggie Zhang
 # Date: 19 September 2024
-# Contact: maggie.zhang@mail.utoronto.ca
+# Contact: maggie.zhang@mail.utoronto.ca 
 # License: MIT
 # Pre-requisites: the data planned in simulation
 # Any other information needed? NO 

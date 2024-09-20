@@ -1,7 +1,7 @@
 #### Preamble ####
-# Purpose: Cleans the raw plane data recorded by two observers..... [...UPDATE THIS...]
-# Author: Rohan Alexander [...UPDATE THIS...]
-# Date: 6 April 2023 [...UPDATE THIS...]
+# Purpose: Cleans the raw plane data by Open Data Toronto
+# Author: Maggie Zhang
+# Date: 19 September 2024
 # Contact: rohan.alexander@utoronto.ca [...UPDATE THIS...]
 # License: MIT
 # Pre-requisites: [...UPDATE THIS...]

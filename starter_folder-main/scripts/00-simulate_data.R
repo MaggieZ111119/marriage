@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: Simulates Data
-# Author: Maggie Zhang
+# Author: Maggie Zhang 
 # Date: 19 September 2024
 # Contact: maggiey.zhang@mail.utoronto.ca
 # License: MIT
