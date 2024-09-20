@@ -23,7 +23,7 @@ data <-
     date = as.Date(runif(n = number_of_date, 
                          min = as.numeric(start_data), 
                          max = as.numeric(end_date))),
-    number_of_marriage = rpois(n = num_of_date, lambda =10)
+    number_of_marriage = rpois(n = num_of_date, lambda = 10)
   )
 
 
