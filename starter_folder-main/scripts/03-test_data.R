@@ -13,11 +13,11 @@ library(tidyverse)
 
 
 #### Test data ####
-data <- read.csv("starter_folder-main/data/raw_data/")
+data <- read.csv("starter_folder-main/data/raw_data/simulated.csv")
 
 # Test for Neg
-data$number
+data$number_of_marriage |> min() <= 0
 
 
-
-# Test for Nas
+# Test for NAs
+all(is.na(data$number_of_marriage))

@@ -21,46 +21,28 @@ library(tidyverse)
 library(ggplot2)
 
 # Read Data(Quarto need dataset to be readed in the file)
-data <- read_csv(here::here("starter_folder-main/data/analysis_data/cleaned_data.csv"))
+data <- read_csv(here::here("data/analysis_data/cleaned_data.csv"))
 ```
 
 
 # Introduction
 
-The Data are extracted from @OpenDataToronto
+The Data are extracted from @OpenDataToronto, learn and used @citeR and @rohan. 
 
-The remainder of this paper is structured as follows. @sec-data.
 
 
 # Data {#sec-data}
 
-Some of our data is of penguins (@fig-bills)-[exmample of cross references], from @palmerpenguins.
-
-```{r}
-#| include: FALSE
-#| label: fig-bills
-#| fig-cap: Bills of penguins
-#| echo: false
-
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
-```
 
 
 
 # Results
-This histogram reflects the amount new marriage happens each year from the year of 2011 to 2024.
+This histogram (@fig-marriagedata) reflects the amount new marriage happens each year from the year of 2011 to 2024 according to @OpenDataToronto.
 
 ```{r}
+#| label: fig-marriagedata
+#| fig-cap: Marriage
 #| echo: false
-#| eval: true
-#| warning: false
-#| message: false
 
 ggplot(data = data, 
        aes(x = year, y = marriage_licenses)) +

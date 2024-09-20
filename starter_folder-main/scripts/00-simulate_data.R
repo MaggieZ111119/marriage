@@ -27,4 +27,4 @@ data <-
   )
 
 
-
+write_csv(data, file = "starter_folder-main/data/raw_data/simulated.csv")
