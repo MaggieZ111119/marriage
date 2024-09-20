@@ -3,9 +3,9 @@
 # Author: Maggie Zhang
 # Date: 19 September 2024
 # Contact: maggiey.zhang@mail.utoronto.ca
-# License: UofT
-# Pre-requisites: [...UPDATE THIS...]
-# Any other information needed? [...UPDATE THIS...]
+# License: MIT
+# Pre-requisites: First sketch the idea of 
+# Any other information needed? Not much
 
 set.seed(304)
 
